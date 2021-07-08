@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net5.0;netstandard2.1;netstandard2.0</TargetFrameworks>
     <RootNamespace>MediaInfo</RootNamespace>
-    <Version>21.3</Version>
+    <Version>21.3.2</Version>
     <AssemblyVersion>21.3.0.0</AssemblyVersion>
     <FileVersion>21.3.0.0</FileVersion>
     <Company>Yaroslav Tatarenko</Company>
@@ -46,8 +46,10 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="3.2.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="MediaInfo.Core.Native" Version="21.3.2" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
   </ItemGroup>
 
   <ItemGroup>
